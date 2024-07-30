@@ -15,8 +15,8 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
+    "docs:dev": "bun scripts/update.ts && vitepress dev",
+    "docs:build": "bun scripts/update.ts && vitepress build",
     "docs:preview": "vitepress preview"
   }
 }
