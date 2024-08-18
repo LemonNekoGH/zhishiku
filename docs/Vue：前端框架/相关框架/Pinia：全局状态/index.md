@@ -1,4 +1,4 @@
-
+# Pinia：全局状态
 <p id="g5YRdMUQGCuoXap9PXjowZ">
 
 

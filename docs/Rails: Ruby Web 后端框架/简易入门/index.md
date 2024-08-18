@@ -1,4 +1,4 @@
-
+# 简易入门
 <p id="uC98N2ZUTN1jFUKsYridRX">
 
 `Rails`是一个约定大于配置的 MVC 框架框架，因此需要严格按照约定放置代码以及编码

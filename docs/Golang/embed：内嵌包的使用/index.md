@@ -1,4 +1,4 @@
-
+# embed：内嵌包的使用
 <p id="24VrvsCmgLmyB3tqUYHX77">
 
 可以把文件内置到字符串变量中，Go 1.17 不再支持嵌入相对路径

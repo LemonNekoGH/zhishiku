@@ -1,4 +1,4 @@
-
+# math/rand：伪随机数包的使用
 <p id="e4kfJovzgf297d4KWXik5s">
 
 ## 打乱数组或切片

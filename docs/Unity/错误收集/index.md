@@ -1,4 +1,4 @@
-
+# 错误收集
 <p id="tZxpNJjaKprDyogjchbMP2">
 
 ## 物体的位置被改变，但物体依然保持原位
@@ -13,7 +13,7 @@
 
 <p id="4bg1S79Wi7w4SDMZhdMbvq">
 
-<img src="https://secure2.wostatic.cn/static/ufPHmzrarjEaB7jS5fhNaf/image.png?auth_key=1722323814-raDCB4X9jVKaqsHycxi8Pg-0-0314b663f3a93e7d5c3b0d39add671cc&download=image.png" width="513.000000" height="128.000000">
+<img src="https://secure2.wostatic.cn/static/ufPHmzrarjEaB7jS5fhNaf/image.png?auth_key=1723970774-77mkH1qht6pf15eSFDizob-0-d6a4a241ea3088345fd9b2817a64840d&download=image.png" width="513.000000" height="128.000000">
 
 </p>
 
@@ -25,7 +25,7 @@
 
 <p id="xAcMnqVsxKvnPDsuiVhJcW">
 
-<img src="https://secure2.wostatic.cn/static/eyrmtti5xJWy9xmfbwjzhF/image.png?auth_key=1722323814-pgSkCSUC3ARNfHH5399CCX-0-cd20b0c891e34a0926689a8e7223ae18&download=image.png" width="287.000000" height="136.000000">
+<img src="https://secure2.wostatic.cn/static/eyrmtti5xJWy9xmfbwjzhF/image.png?auth_key=1723970774-eHCiMfYz6JfWzUP9guKXTd-0-74eb3c1373b3a740ba53359c64e54652&download=image.png" width="287.000000" height="136.000000">
 
 </p>
 
@@ -37,7 +37,7 @@
 
 <p id="tBR44RJ2eyfccvvFEs55yQ">
 
-<img src="https://secure2.wostatic.cn/static/h9HSWeTsnxbGBM6hQdrTxt/image.png?auth_key=1722323814-vhH5jxJBdE75BWZsEDqgjh-0-ba89299ee52ae7b984585f291286f03b&download=image.png" width="344.000000" height="123.000000">
+<img src="https://secure2.wostatic.cn/static/h9HSWeTsnxbGBM6hQdrTxt/image.png?auth_key=1723970774-nRfEzFxgzHByXnWTbvoVUg-0-11e6bced400a7d00402ba1ae8cd34478&download=image.png" width="344.000000" height="123.000000">
 
 </p>
 
@@ -61,7 +61,7 @@
 
 <p id="3H738UpLtGiNEcDMBkKxxd">
 
-<img src="https://secure2.wostatic.cn/static/nJuK1Q3r9QVzK2smuFDfZm/image.png?auth_key=1722323814-iyA7mshvcsXkScxYJyRute-0-03d7eaa71d083bed28c407f1831c54fc&download=image.png" width="758.000000" height="136.861111">
+<img src="https://secure2.wostatic.cn/static/nJuK1Q3r9QVzK2smuFDfZm/image.png?auth_key=1723970774-gESiGpAw2kf2McWieXAT6J-0-81c1f7dc83bafabd0eab8e8ce4d63e1f&download=image.png" width="758.000000" height="136.861111">
 
 </p>
 

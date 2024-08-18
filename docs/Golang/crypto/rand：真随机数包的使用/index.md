@@ -1,4 +1,4 @@
-
+# crypto/rand：真随机数包的使用
 <p id="cU2TQx6w9UWFcK8J15MQhM">
 
 ## 注意事项

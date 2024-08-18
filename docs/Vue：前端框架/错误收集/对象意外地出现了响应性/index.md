@@ -1,4 +1,4 @@
-
+# 对象意外地出现了响应性
 <p id="tdSrNWSHZWcKsdzN6n38U9">
 
 因为 JS 的对象都是引用

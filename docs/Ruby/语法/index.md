@@ -1,4 +1,4 @@
-
+# 语法
 <p id="7K5a9C5pecxBSwEAa9L7b7">
 
 Ruby 是一个多范式强类型动态类型语言，下面是`Ruby`语法字典

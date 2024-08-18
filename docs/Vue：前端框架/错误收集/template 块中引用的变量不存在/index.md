@@ -1,7 +1,7 @@
-
+# template 块中引用的变量不存在
 <p id="oK8NijAsi4GFY3fVcxVJ5G">
 
-<img src="https://secure2.wostatic.cn/static/nT8KLNhFY26mX3A7izZ1ib/image.png?auth_key=1722323712-uWwRCrPHXB2ZCAZPdat5u7-0-c3f612b871894f81357c04d36404403c&download=image.png" width="760.000000" height="94.333768">
+<img src="https://secure2.wostatic.cn/static/nT8KLNhFY26mX3A7izZ1ib/image.png?auth_key=1723970800-ajERTXwXwSNNYvyAmxGv3o-0-9d59491fc157462136d923f6ef05f771&download=image.png" width="760.000000" height="94.333768">
 
 </p>
 
@@ -19,7 +19,7 @@
 
 <p id="919MG2XQ6xFqeg4EqtXtK8">
 
-<img src="https://secure2.wostatic.cn/static/7ibcfogd9qByVjvUQMWYht/image.png?auth_key=1722323712-69N8pMSH4bcuYrCLzvkfUy-0-cfb93af3d26951bf8efa31868a6a9c6f&download=image.png" width="760.000000" height="421.239330">
+<img src="https://secure2.wostatic.cn/static/7ibcfogd9qByVjvUQMWYht/image.png?auth_key=1723970800-kvNbBVD7ztjZTW5SpgfW15-0-8afee45a1eac7a0b201b6dd2e0453c28&download=image.png" width="760.000000" height="421.239330">
 
 </p>
 

@@ -1,4 +1,4 @@
-
+# dotnet 命令
 <p id="68gm52bgJrgTP6ZFzxXLTB">
 
 ## `tool`用于管理工具

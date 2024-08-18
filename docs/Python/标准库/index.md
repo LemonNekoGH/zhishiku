@@ -1,4 +1,4 @@
-
+# 标准库
 <p id="ayequa26imJpDtR1UT53Go">
 
 [内置函数](./%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0/index.md)

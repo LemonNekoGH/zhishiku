@@ -1,4 +1,4 @@
-
+# 监听状态变化
 <p id="1DGsH6iYmwj3MEk4ZiJ4ZH">
 
 先定义一个状态库

@@ -1,4 +1,4 @@
-
+# LCS：最长公共子序列
 <p id="xzxTfnbsF7RfswxaMeCPSa">
 
 [https://codersunny.com/posts/da46549b](<https://codersunny.com/posts/da46549b>)

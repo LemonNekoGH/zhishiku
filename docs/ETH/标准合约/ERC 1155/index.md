@@ -1,4 +1,4 @@
-
+# ERC 1155
 <p id="3H9e4dkz75aGgiqi4u46aA">
 
 是一种可以同时包含 NFT 和 FT 代币的合约

@@ -1,4 +1,4 @@
-
+# vue-i18n 插件导致的构建失败问题
 <p id="gPhWFyfb59Y5CzwNG4eUg5">
 
 ## 版本
