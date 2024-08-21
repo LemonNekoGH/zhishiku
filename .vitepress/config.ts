@@ -19,5 +19,17 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/lemonnekogh/zhishiku' }
     ],
   },
-  ignoreDeadLinks: true
+  ignoreDeadLinks: true,
+  vite: {
+    optimizeDeps: {
+      exclude: [
+        '@nolebase/vitepress-plugin-enhanced-readabilities/client'
+      ]
+    },
+    ssr: {
+      noExternal: [
+        '@nolebase/vitepress-plugin-enhanced-readabilities'
+      ]
+    }
+  }
 })

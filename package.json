@@ -3,6 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.4.0",
     "@types/bun": "latest",
     "fast-glob": "^3.3.2",
     "fs-extra": "^11.2.0",
