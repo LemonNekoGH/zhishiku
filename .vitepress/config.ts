@@ -31,5 +31,28 @@ export default defineConfig({
         '@nolebase/vitepress-plugin-enhanced-readabilities'
       ]
     }
+  },
+  transformPageData(pageData) {
+    const splitPath = pageData.filePath.split('/').slice(1, -1)
+    const breadcrumbs: {
+      title: string,
+      link: string
+    }[] = [{
+      title: '代码笔记',
+      link: '/docs'
+    }]
+
+    for (let i = 0; i < splitPath.length; i++) {
+      let link = '/docs/'
+
+      for (let j = 0; j <= i; j++) {
+        link += encodeURIComponent(splitPath[j]) + '/'
+      }
+
+      breadcrumbs.push({ title: splitPath[i], link })
+    }
+
+    if (splitPath.length)
+      pageData.frontmatter.breadcrumbs = breadcrumbs
   }
 })
