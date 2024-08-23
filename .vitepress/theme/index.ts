@@ -9,11 +9,13 @@ import {
 import type { Options } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
 
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
+import Breadcrumbs from './Breadcrumbs.vue'
 
 export const Theme: ThemeConfig = {
   extends: DefaultTheme,
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
+      'doc-before': () => h(Breadcrumbs),
       // A enhanced readabilities menu for wider screens
       'nav-bar-content-after': () => h(NolebaseEnhancedReadabilitiesMenu),
       // A enhanced readabilities menu for narrower screens (usually smaller than iPad Mini)
