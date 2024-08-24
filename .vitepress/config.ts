@@ -18,6 +18,10 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/lemonnekogh/zhishiku' }
     ],
+    docFooter: { 
+      prev: false, 
+      next: false, 
+    }, 
   },
   ignoreDeadLinks: true,
   vite: {
