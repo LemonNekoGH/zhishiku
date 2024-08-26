@@ -1,0 +1,20 @@
+# 扫描和修复损坏的系统文件
+1. 按`Win + X`，选择“命令提示符（管理员）”或“Windows PowerShell（管理员）”。
+
+
+
+
+1. 在命令提示符中输入以下命令并按`Enter`：
+	<p id="7xWnW1tHqQebrjhYRGMtv6">
+	
+	```PowerShell
+	sfc /scannow
+	```
+	
+	
+	</p>
+
+
+1. 这将扫描和修复任何损坏的系统文件。
+
+
