@@ -42,7 +42,7 @@ export default defineConfig({
       title: string,
       link: string
     }[] = [{
-      title: '代码笔记',
+      title: 'zhishiku',
       link: '/docs'
     }]
 
