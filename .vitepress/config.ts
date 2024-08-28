@@ -25,6 +25,7 @@ export default defineConfig({
   },
   ignoreDeadLinks: true,
   vite: {
+    assetsInclude: ['**/*.jpe'],
     optimizeDeps: {
       exclude: [
         '@nolebase/vitepress-plugin-enhanced-readabilities/client'
