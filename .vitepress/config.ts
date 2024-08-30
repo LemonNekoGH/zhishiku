@@ -6,6 +6,15 @@ import { sidebar } from './docsMetadata.json'
 export default defineConfig({
   title: "zhishiku",
   description: "zhishiku is the knowledge base of LemonNeko and LiliumNeko",
+  head:[
+    [
+      'link',
+      {rel:'webmention',href:'https://webmention.io/username/zhishiku.lemonneko.moe'}
+    ],
+    [
+      'a',{href:'https://github.com/liliumneko',rel:'me'},`https://github.com/liliumneko`
+    ],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
