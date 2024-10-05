@@ -1,19 +1,4 @@
 # 特性
 1. 由于需要阻止重放攻击，有了 key 序列号的存在，一个 flow 账号中的一个 key 同时只能进行一个交易
 
-
-
-
 1. 泛型
-	<p id="kBHXDn8vQwRnRgsuZMXT19">
-	
-	```Go
-	pub struct interface Stringier {
-	  pub fun toString()
-	}
-	```
-	
-	
-	</p>
-
-

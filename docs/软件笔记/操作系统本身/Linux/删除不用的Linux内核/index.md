@@ -1,12 +1,5 @@
 # 删除不用的Linux内核
-<p id="9GrK7SE1cXMMMVTSnfHGHP">
-
 新建 .sh 文件
-
-</p>
-
-
-<p id="wmtFy3Z5xJah29B6jX6qqS">
 
 ```Bash
 #!/bin/bash
@@ -41,34 +34,10 @@ fi
 ```
 
 
-</p>
-
-
-<p id="uDnrKKMwwCKmUaVyfbh98n">
-
 执行
-
-</p>
-
-
-<p id="j6fj5JFFBeXriAUksRcxqA">
 
 看查看到要删除的内核版本和相关的包，确认没有问题之后再运行
 
-</p>
-
-
-<p id="r7iVq9icLRsRi2GVp6GvAQ">
-
 之后重启，执行：
 
-</p>
-
-
-<p id="afoxaU2XDjWk5M2G3iEt5B">
-
 检查现有的内核：
-
-</p>
-
-

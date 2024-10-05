@@ -1,12 +1,5 @@
 # golang.org/x/exp/maps：映射相关包的使用
-<p id="gVeCJBEiFpGdWEjjiAzvLg">
-
 ## 合并两个 map
-
-</p>
-
-
-<p id="6ZnrEewMNs9MK6v2JPAFhb">
 
 ```Go
 package main
@@ -25,8 +18,4 @@ func main() {
     fmt.Println("dst:", dst)
 }
 ```
-
-
-</p>
-
 

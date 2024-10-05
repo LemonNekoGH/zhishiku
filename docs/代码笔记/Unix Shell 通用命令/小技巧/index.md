@@ -1,19 +1,7 @@
 # 小技巧
-<p id="hQ1HpW2BJ8aGdsRbyEWG49">
-
 # 在命令后添加`&`可以将进程放入后台
 
-</p>
-
-
-<p id="6SDVhipaK2mgB8jypvvyrd">
-
 例子：
-
-</p>
-
-
-<p id="s8T1dsrimqBaLqPkQwQUUa">
 
 ```Bash
 & pnpm dev &
@@ -52,14 +40,5 @@ Ctrl+C
 
 ```
 
-
-</p>
-
-
-<p id="hyDLA3hvcEr5ZXrQgQRRkj">
-
-
-
-</p>
 
 

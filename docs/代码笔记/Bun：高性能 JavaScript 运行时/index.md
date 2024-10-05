@@ -1,40 +1,13 @@
 # Bun：高性能 JavaScript 运行时
-<p id="ouXeMksUDv26yo5HUsGx7f">
 
-
-
-</p>
-
-
-<p id="aDMZAJ1mKS8veH67iMqvy9">
 
 ## 问题
 
-</p>
-
-
-<p id="ninqYaWzGhSH18CNPVgvwo">
-
 ### 每个终端启动时都会出现`zsh compinit: insecure directories, run compaudit for list`，需要按`y`键才能继续
-
-</p>
-
-
-<p id="dLgKphFMhVFBkAwCVijzqW">
 
 2023-09-13：暂无解决方案，卸载 Bun 即可
 
-</p>
-
-
-<p id="cPQoVxXdAZUKhmmWNhNTSX">
-
 ### 在构建包含`@nolebase/vitepress-plugin-enhanced-readabilities`阅读增强组件的`VitePress`文档项目时，会报错
-
-</p>
-
-
-<p id="pvUNSfa2Nhkvjw6G841uN5">
 
 ```Bash
 
@@ -53,13 +26,4 @@ error: script "docs:build" exited with code 1
 ```
 
 
-</p>
-
-
-<p id="uN6r32b9bzbECmrH8Rbb2j">
-
 换用`pnpm`解决了问题
-
-</p>
-
-

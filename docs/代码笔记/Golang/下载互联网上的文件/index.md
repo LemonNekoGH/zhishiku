@@ -1,6 +1,4 @@
 # 下载互联网上的文件
-<p id="ttmG3TrXVwKpXu7krfPhCW">
-
 ```Go
   for url, fileName := range result.Images {
     fmt.Println("downloading image: " + url) //输出正在下载的url
@@ -45,14 +43,5 @@
   }
 ```
 
-
-</p>
-
-
-<p id="bEJjz1V1ZzsKHxXtnbDip6">
-
-
-
-</p>
 
 
