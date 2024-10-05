@@ -1,29 +1,12 @@
 # 命令
-<p id="mTXjNS2Aqm3sy5yUg6iHUn">
-
 当你创建好项目后，如果你调用
-
-</p>
-
-
-<p id="ie739S8on7V15qJnrcx9jc">
 
 ```Bash
 ./bin/rails --help
 ```
 
 
-</p>
-
-
-<p id="6bAMs9XzmraVVsyQ3kWTwX">
-
 的时候可以发现有一堆操作可以进行
-
-</p>
-
-
-<p id="g5fbbkBBgnSRfUe9wdaE3C">
 
 ```text
 The most common rails commands are:
@@ -106,45 +89,15 @@ In addition to those commands, there are:
 ```
 
 
-</p>
-
-
-<p id="44rMCWm7JZYqWQisiCKKvJ">
-
 这底下的所有命令都可以使用`--help`来查看用法
-
-</p>
-
-
-<p id="kYU33oF3msyc8zxohFW81S">
 
 ## 值得单独拿出来记录的命令
 
-</p>
-
-
-<p id="dmDAbpk62opf4Hxq5A5Yuw">
-
 ### `rails c / rails console`
-
-</p>
-
-
-<p id="gfEUJy6xpKQWMDMwEiTDNo">
 
 用它可以开启一个`Ruby REPL`但是拥有`Rails`环境，你可以在里面访问你的`Rails`代码
 
-</p>
-
-
-<p id="kDe1XFQYd2vy6RiZwt1CRf">
-
 比如你有一个`Action Mailer`
-
-</p>
-
-
-<p id="8rQgaa3a8STEQu8GgPEzQM">
 
 ```Ruby
 class MyMailer < ApplicationMailer
@@ -155,24 +108,10 @@ end
 ```
 
 
-</p>
-
-
-<p id="jSdGxpFWQg3BzrNWEVQaoQ">
-
 你就能在`rails console`里面直接调用它
-
-</p>
-
-
-<p id="9VSfQXdpVw3EhN4VVRTzum">
 
 ```Ruby
 Loading development environment (Rails 7.0.7)
 3.2.2 :001 > MyMailer.mailer.deliver_now
 ```
-
-
-</p>
-
 

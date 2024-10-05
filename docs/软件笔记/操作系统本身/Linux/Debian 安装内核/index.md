@@ -1,6 +1,4 @@
 # Debian 安装内核
-<p id="b4vZb5cbyG99zX1jqhyPH1">
-
 ```Bash
 sudo apt-cache search linux-image #可用内核文件列表
 sudo apt install linux-headers-6.1.0-21-amd64 #安装指定版本的内核头文件
@@ -10,8 +8,4 @@ sudo reboot #重启
 
 
 ```
-
-
-</p>
-
 

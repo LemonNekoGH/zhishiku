@@ -1,19 +1,7 @@
 # runtime/debug：调试包的使用
-<p id="okf1Khr22LwjeG6uWDesm4">
-
 ## `debug.PrintStack`
 
-</p>
-
-
-<p id="eHT6vw82a7h6kGCqCktwpE">
-
 可以打印**当前**协程的堆栈信息，适合在可能发生`panic`的协程中使用，可以在这里尝试：[https://goplay.tools/snippet/rbDv6_l9sp3](<https://goplay.tools/snippet/rbDv6_l9sp3>)
-
-</p>
-
-
-<p id="sFR5DgMdM6LjMeYXBnG8dq">
 
 ```Go
 package main
@@ -49,8 +37,4 @@ func doSomethingWillPanic() {
 }
 
 ```
-
-
-</p>
-
 

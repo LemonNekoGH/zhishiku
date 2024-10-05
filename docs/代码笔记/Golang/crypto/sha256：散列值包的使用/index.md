@@ -1,12 +1,5 @@
 # crypto/sha256：散列值包的使用
-<p id="aWf4dayW3uzd4jiXC5Uiez">
-
 ## 计算文件 Hash
-
-</p>
-
-
-<p id="mQxoDPWUHAChvtv9JkiTFC">
 
 ```Go
 package main
@@ -35,14 +28,5 @@ func main() {
 }
 ```
 
-
-</p>
-
-
-<p id="hBJjDY2rJKnagB9Jxfgbt9">
-
-
-
-</p>
 
 

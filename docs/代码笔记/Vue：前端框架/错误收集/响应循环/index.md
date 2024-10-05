@@ -1,29 +1,12 @@
 # 响应循环
-<p id="9UCYBY9HZrw2QNFaH52gwt">
-
 在“双括号表达式”中调用函数，同时函数返回了不同的值
 
-</p>
-
-
-<p id="hmBwG5kWboTB8WYVt7h2iH">
-
 版本 Vue2，未使用 TypeScript
-
-</p>
-
-
-<p id="8RnmtA7DG4aG56dTEZ8x3v">
 
 ```HTML
 <p>{{pushbtn()}}</p><button @click="push">1</button> 
 ```
 
-
-</p>
-
-
-<p id="jEMwdtA1BeoqeJwJVZcodZ">
 
 ```JavaScript
 export default{
@@ -48,11 +31,6 @@ export default{
 }
 ```
 
-
-</p>
-
-
-<p id="6UydS8ZPxuFkQ49fLXtXap">
 
 ```JavaScript
 //正确写法
@@ -81,14 +59,5 @@ export default{
 
 ```
 
-
-</p>
-
-
-<p id="5mXTcApvLR8gkAKNUXdDcP">
-
-
-
-</p>
 
 

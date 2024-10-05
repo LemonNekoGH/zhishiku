@@ -1,12 +1,5 @@
 # os：系统包的使用
-<p id="uaaAtnh2xVWACuwKncQnJ8">
-
 ### 判断一个文件或文件夹是否存在
-
-</p>
-
-
-<p id="ufJx6dKAYMKHSD7X131ejR">
 
 ```Go
 // IsFileOrDirExists
@@ -37,8 +30,4 @@ func IsFileOrDirExists(path string, isDir bool) error {
 }
 
 ```
-
-
-</p>
-
 
