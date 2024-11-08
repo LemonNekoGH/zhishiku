@@ -20,5 +20,8 @@
     "docs:dev": "tsx scripts/update.ts && vitepress dev",
     "docs:build": "tsx scripts/update.ts && vitepress build",
     "docs:preview": "vitepress preview"
+  },
+  "dependencies": {
+    "@lemonneko/vitepress-plugin-breadcrumbs": "^0.0.3"
   }
 }
