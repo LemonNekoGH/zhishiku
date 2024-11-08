@@ -31,12 +31,14 @@ export default defineConfig({
     assetsInclude: ['**/*.jpe'],
     optimizeDeps: {
       exclude: [
-        '@nolebase/vitepress-plugin-enhanced-readabilities/client'
+        '@nolebase/vitepress-plugin-enhanced-readabilities/client',
+        '@lemonneko/vitepress-plugin-breadcrumbs/client'
       ]
     },
     ssr: {
       noExternal: [
-        '@nolebase/vitepress-plugin-enhanced-readabilities'
+        '@nolebase/vitepress-plugin-enhanced-readabilities',
+        '@lemonneko/vitepress-plugin-breadcrumbs'
       ]
     }
   },
