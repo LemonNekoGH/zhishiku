@@ -1,6 +1,9 @@
 import { defineConfig } from 'vitepress'
 
 import { sidebar } from './docsMetadata.json'
+import { BreadcrumbsDataGenerator } from '@lemonneko/vitepress-plugin-breadcrumbs'
+
+const breadcrumbsGenerator = new BreadcrumbsDataGenerator('zhishiku', 'docs')
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -28,36 +31,18 @@ export default defineConfig({
     assetsInclude: ['**/*.jpe'],
     optimizeDeps: {
       exclude: [
-        '@nolebase/vitepress-plugin-enhanced-readabilities/client'
+        '@nolebase/vitepress-plugin-enhanced-readabilities/client',
+        '@lemonneko/vitepress-plugin-breadcrumbs/client'
       ]
     },
     ssr: {
       noExternal: [
-        '@nolebase/vitepress-plugin-enhanced-readabilities'
+        '@nolebase/vitepress-plugin-enhanced-readabilities',
+        '@lemonneko/vitepress-plugin-breadcrumbs'
       ]
     }
   },
-  transformPageData(pageData) {
-    const splitPath = pageData.filePath.split('/').slice(1, -1)
-    const breadcrumbs: {
-      title: string,
-      link: string
-    }[] = [{
-      title: 'zhishiku',
-      link: '/docs'
-    }]
-
-    for (let i = 0; i < splitPath.length; i++) {
-      let link = '/docs/'
-
-      for (let j = 0; j <= i; j++) {
-        link += encodeURIComponent(splitPath[j]) + '/'
-      }
-
-      breadcrumbs.push({ title: splitPath[i], link })
-    }
-
-    if (splitPath.length)
-      pageData.frontmatter.breadcrumbs = breadcrumbs
+  transformPageData(pageData, context) {
+    breadcrumbsGenerator.generate(pageData, context.siteConfig.pages)
   }
 })

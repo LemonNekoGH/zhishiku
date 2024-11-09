@@ -9,7 +9,7 @@ import {
 import type { Options } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
 
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
-import Breadcrumbs from './Breadcrumbs.vue'
+import { Breadcrumbs } from '@lemonneko/vitepress-plugin-breadcrumbs/client'
 
 export const Theme: ThemeConfig = {
   extends: DefaultTheme,
