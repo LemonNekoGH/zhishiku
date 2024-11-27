@@ -11,6 +11,9 @@ importers:
       '@lemonneko/vitepress-plugin-breadcrumbs':
         specifier: ^0.0.3
         version: 0.0.3(@typescript-eslint/utils@8.13.0(eslint@9.14.0)(typescript@5.6.3))(@vue/compiler-sfc@3.5.12)(typescript@5.6.3)
+      '@nolebase/vitepress-plugin-breadcrumbs':
+        specifier: ^2.10.0
+        version: 2.10.0(@algolia/client-search@5.13.0)(@types/node@20.12.14)(less@4.2.0)(postcss@8.4.47)(search-insights@2.17.2)(typescript@5.6.3)
       typescript:
         specifier: ^5.0.0
         version: 5.6.3
@@ -627,6 +630,9 @@ packages:
 
   '@nolebase/ui@2.8.1':
     resolution: {integrity: sha512-tvp9CbLnPQAqQM/U+boXM6LRbdW8WsbJ+JVjGCqhYoi+flS/CQ1Mgtv4CgIxcMDD5KEU1iuchcJi83hSine4xw==}
+
+  '@nolebase/vitepress-plugin-breadcrumbs@2.10.0':
+    resolution: {integrity: sha512-IQwDG3hh69rXz37CdLYe0qxpfEgpPduOLLjhvZ3EqaIvMyY2FJmogM+e7PzSh14MwHaPvKmBIe3AxOiW75Sgfw==}
 
   '@nolebase/vitepress-plugin-enhanced-readabilities@2.8.1':
     resolution: {integrity: sha512-QGupFj8oHBbuR6Or+EBj0wCdztNozmZYV6UzcVzDoU1x5ELYW5m315QdPHrboYHt9Dgi0Kw8M4w8tUB3HVvo2Q==}
@@ -2887,6 +2893,39 @@ snapshots:
       - fuse.js
       - idb-keyval
       - jwt-decode
+      - lightningcss
+      - markdown-it-mathjax3
+      - nprogress
+      - postcss
+      - qrcode
+      - react
+      - react-dom
+      - sass
+      - sass-embedded
+      - search-insights
+      - sortablejs
+      - stylus
+      - sugarss
+      - terser
+      - typescript
+      - universal-cookie
+
+  '@nolebase/vitepress-plugin-breadcrumbs@2.10.0(@algolia/client-search@5.13.0)(@types/node@20.12.14)(less@4.2.0)(postcss@8.4.47)(search-insights@2.17.2)(typescript@5.6.3)':
+    dependencies:
+      vitepress: 1.5.0(@algolia/client-search@5.13.0)(@types/node@20.12.14)(less@4.2.0)(postcss@8.4.47)(search-insights@2.17.2)(typescript@5.6.3)
+    transitivePeerDependencies:
+      - '@algolia/client-search'
+      - '@types/node'
+      - '@types/react'
+      - '@vue/composition-api'
+      - async-validator
+      - axios
+      - change-case
+      - drauu
+      - fuse.js
+      - idb-keyval
+      - jwt-decode
+      - less
       - lightningcss
       - markdown-it-mathjax3
       - nprogress

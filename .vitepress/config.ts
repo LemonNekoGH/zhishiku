@@ -1,9 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 import { sidebar } from './docsMetadata.json'
-import { BreadcrumbsDataGenerator } from '@lemonneko/vitepress-plugin-breadcrumbs'
-
-const breadcrumbsGenerator = new BreadcrumbsDataGenerator('zhishiku', 'docs')
+import { generateBreadcrumbsData } from '@nolebase/vitepress-plugin-breadcrumbs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -32,17 +30,17 @@ export default defineConfig({
     optimizeDeps: {
       exclude: [
         '@nolebase/vitepress-plugin-enhanced-readabilities/client',
-        '@lemonneko/vitepress-plugin-breadcrumbs/client'
+        '@nolebase/vitepress-plugin-breadcrumbs/client'
       ]
     },
     ssr: {
       noExternal: [
         '@nolebase/vitepress-plugin-enhanced-readabilities',
-        '@lemonneko/vitepress-plugin-breadcrumbs'
+        '@nolebase/vitepress-plugin-breadcrumbs'
       ]
     }
   },
   transformPageData(pageData, context) {
-    breadcrumbsGenerator.generate(pageData, context.siteConfig.pages)
+    generateBreadcrumbsData(pageData, context)
   }
 })
