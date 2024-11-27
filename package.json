@@ -22,6 +22,6 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
-    "@lemonneko/vitepress-plugin-breadcrumbs": "^0.0.3"
+    "@nolebase/vitepress-plugin-breadcrumbs": "^2.10.0"
   }
 }
